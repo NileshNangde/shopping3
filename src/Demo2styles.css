@@ -1,0 +1,276 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-around;
+   padding: 15px;
+   
+    
+
+}
+.menu-bar span{
+    padding: 15px;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: rgb(54, 5, 100);
+}
+.menu-bar a:hover{
+    color: red;
+
+}
+.brand-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav{
+    font-size: 20px;
+}
+.nav1{
+    font-size: 20px;
+    padding: 15px;
+
+}
+.sub-menu1{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 450px;
+}
+.women{
+    background-image: url(../public/images/womenshopnew1.jpg);
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+    
+}
+.men{
+    background-image: url(../public/images/mensshopnew1.jpg);
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+}
+.kids{
+    background-image: url(../public/images/shopkids1.webp);
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+}
+.kids:hover{
+    opacity: 1;
+}
+.women:hover{
+    opacity: 1;
+}
+.men:hover{
+    opacity:1;
+}
+
+
+.brand-name1{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    color: whitesmoke;
+}
+button{
+    width: 200px;
+    background-color: white;
+    height: 50px;
+    
+
+}
+.sub-menu2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.sub-menu3{
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+.sub-sub2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-sub1{
+    color:gray;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sub-sub3{
+    color: gray;
+}
+.sub-menu4{
+    margin:35px 35px;
+    
+    
+   
+}
+.sub-menu4 ul{
+    display: flex;
+    list-style: none;
+}
+.menu41{
+    background-image: url(../public/images/bag1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    color: rgb(240, 240, 240);
+    box-shadow: 3px 3px 3px gray;
+
+    
+}
+.menua{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px gray;
+}
+.menu42{
+    width: 3%;
+    height: 400px;
+}
+.menu43{
+    width: 60%;
+    height: 400px;
+    background-image: url(../public/images/printedMens2.webp);
+    background-position: right;
+    background-size: cover;
+    color: rgb(245, 245, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+   
+
+}
+.menuc{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px gray ;
+   
+    left: 90px;
+    
+}
+.menu44{
+    width: 60%;
+    height: 400px;
+    background-image: url(../public/images/womennew.jpg);
+    background-position: right;
+    background-size: cover;
+    color: rgb(245, 245, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.menu45{
+    width: 3%;
+    height: 400px;
+
+}
+.menu46{
+    background-image: url(../public/images/sweetshirt3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    box-shadow: 3px 4px 4px gray;
+
+}
+.menu-bar4{
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+.menue{
+    font-size: 40px;
+    font-weight: bold;
+}
+.menuf span{
+    font-weight: bold;
+    padding:20px;
+    
+
+}
+.menuf{
+    margin: 30px;
+}
+.menuf span:hover{
+    color: red;
+}
+.menu-bar5{
+    display: flex;
+    justify-content:space-between;
+}
+.main-bar5{
+    height: 500px;
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+.sub-bar5-1{
+    background-image: url(../public/images/sandal12.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-2{
+    background-image: url(../public/images/floraldress3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-3{
+    background-image: url(../public/images/shoes12.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-4{
+    background-image: url(../public/images/topforgirls1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
