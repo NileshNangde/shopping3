@@ -128,6 +128,7 @@ button{
 }
 .sub-menu4{
     margin:35px 35px;
+    margin-left: 100px;
     
     
    
@@ -236,23 +237,23 @@ button{
 .menuf{
     margin: 30px;
 }
-.menuf span:hover{
+.menuf span:hover ,.active{
     color: red;
 }
 .menu-bar5{
     display: flex;
     justify-content:space-between;
+    margin: 35px;;
 }
 .main-bar5{
     height: 500px;
     width: 20%;
-    margin-left: 40px;
-    margin-right: 40px;
+   
 
 
 }
 .sub-bar5-1{
-    background-image: url(../public/images/sandal12.jpg);
+    background-image: url(../public/images/sandanew.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
@@ -262,6 +263,7 @@ button{
     background-size: cover;
     background-position: center;
     height: 60%;
+    position: relative;
 }
 .sub-bar5-3{
     background-image: url(../public/images/shoes12.webp);
@@ -275,3 +277,90 @@ button{
     background-position: center;
     height: 60%;
 }
+.sub-bar5-1:hover{
+    background-image: url(../public/images/sandalnew2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-2:hover{
+    background-image: url(../public/images/floraldress4.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-3:hover{
+    background-image: url(../public/images/shoesnew1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-4:hover{
+    background-image: url(../public/images/topforgirlsnew1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.menu-bar6{
+    display: flex;
+    justify-content:space-between;
+    margin-top: -150px;
+    margin-right: 35px;
+    margin-left: 35px;
+    
+     
+}
+.sub-bar5-5{
+    background-image: url(../public/images/sandalnew2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-6{
+    background-image: url(../public/images/floraldress4.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-7{
+    background-image: url(../public/images/shoesnew1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-8{
+    background-image: url(../public/images/topforgirlsnew1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-5:hover{
+    background-image: url(../public/images/sandanew.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-6:hover{
+    background-image: url(../public/images/floraldress3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-7:hover{
+    background-image: url(../public/images/shoes12.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-8:hover{
+    background-image: url(../public/images/topforgirls1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-2 span {
+ 
+}
+
+    
+
